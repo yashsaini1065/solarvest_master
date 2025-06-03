@@ -1,0 +1,57 @@
+# Node.js dependencies
+node_modules/
+
+# React Native cache
+.expo/
+.expo-shared/
+*.expo
+.cache/
+dist/
+tmp/
+temp/
+
+# Android build files
+android/.gradle/
+android/app/build/
+android/build/
+android/.idea/
+android/local.properties
+android/.cxx/
+
+# iOS build files
+ios/Pods/
+ios/build/
+ios/DerivedData/
+ios/.idea/
+ios/*.xcodeproj/project.xcworkspace/
+ios/*.xcworkspace/
+ios/*.xcuserstate
+ios/*.xcuserdata
+
+# Metro bundler cache
+metro-cache/
+*.hmap
+
+# Environment variable files
+.env
+.env.*
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# macOS system files
+.DS_Store
+
+# Misc
+*.swp
+*.keystore
+*.jks
+*.iml
