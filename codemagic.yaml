@@ -5,10 +5,10 @@ workflows:
     environment:
       vars:
         XCODE_WORKSPACE: "ios/YourApp.xcworkspace" 
-        XCODE_SCHEME: "YourApp"                     
+        XCODE_SCHEME: "SOLARVEST"                     
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: "com.yourname.yourapp"
+        bundle_identifier: "com.yashsaini.SOLARVEST"
     scripts:
       - name: Install dependencies
         script: |
